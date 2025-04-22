@@ -4,3 +4,9 @@ body {
     background-color: #f0f2f5;
     color: #333;
   }
+h1 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    color: hsl(210, 100%, 25%);
+}
