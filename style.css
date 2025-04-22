@@ -26,7 +26,7 @@ img{
   }
 span{
    
-    color: #004080;
+    color: #18528c;
   }
 
   
@@ -46,3 +46,24 @@ span{
     border-radius: 20px;
     color: white;
   }
+.listado-vinculos ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+.listado-vinculos li {
+    margin-bottom: 15px;
+  }
+  
+.listado-vinculos a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 8px;
+  }
+  
+.listado-vinculos a:hover {
+    background-color: #39b300;
+  } 
