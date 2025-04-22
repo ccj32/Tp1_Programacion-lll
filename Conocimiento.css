@@ -10,3 +10,17 @@ h1 {
     margin-bottom: 30px;
     color: hsl(210, 100%, 25%);
 }
+ol li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 25px;
+    font-size: 30px;
+    background-color: #e8f0ff;
+    padding: 15px;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+  }
+ol li:hover {
+    background-color: #d0e1ff;
+  }
