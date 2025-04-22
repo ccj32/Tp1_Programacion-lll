@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #f0f2f5;
+    background-color: #c5ccd6;
     color: #333;
   }
 h1 {
@@ -15,7 +15,7 @@ ol li {
     align-items: center;
     justify-content: space-between;
     margin-bottom: 25px;
-    font-size: 30px;
+    font-size: 20px;
     background-color: #e8f0ff;
     padding: 15px;
     border-radius: 10px;
@@ -24,3 +24,10 @@ ol li {
 ol li:hover {
     background-color: #d0e1ff;
   }
+  img {
+    height: 60px;
+    width: auto;
+    border-radius: 10px;
+    margin-left: 20px;
+  }
+  
