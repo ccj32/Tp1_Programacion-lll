@@ -10,7 +10,7 @@ header  {
     padding: 10px;
     border-radius: 10px;
   }
-img{
+#foto-perfil{
     width: 100px;
     height: 120px;
     float: left;
@@ -57,17 +57,38 @@ span{
   }
   
 .listado-vinculos a {
-    display: inline-block;
+    display: block;
     text-decoration: none;
     background-color: #007bff;
+    text-align: center;
     color: white;
+    transition: background-color 0.3s ease, transform 0.2s ease;
     padding: 10px 15px;
     border-radius: 8px;
   }
-  
+    
 .listado-vinculos a:hover {
     background-color: #39b300;
+    transform: scale(1.05);
   } 
+
+  .imagen {
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .boton-imagen {
+    width: 220px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: transform 0.2s;
+    cursor: pointer;
+  }
+  
+  .boton-imagen:hover {
+    transform: scale(1.05);
+  }
+
   table {
     width: 100%;
     border-collapse: collapse;
