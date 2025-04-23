@@ -20,6 +20,7 @@ img{
 .contenedor {
     display: flex;
     justify-content: space-between;
+    text-align: justify;
     gap: 30px;
     padding: 20px;
     max-width: 100%;
@@ -67,3 +68,24 @@ span{
 .listado-vinculos a:hover {
     background-color: #39b300;
   } 
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  table, th, td {
+    border: 1px solid #c7c7c7;
+  }
+  
+  th {
+    background-color: #004080;
+    color: rgb(199, 199, 199);
+    padding: 10px;
+  }
+  
+  td {
+    padding: 10px;
+    background-color: #656363;
+  }
+  
