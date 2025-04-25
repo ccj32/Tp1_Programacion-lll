@@ -4,6 +4,7 @@ body{
     color: white;
     background: linear-gradient(to right, #0f2027, #203a43, #2c5364); 
     scroll-behavior: smooth;
+    margin: 1px;
 }
 
 body::-webkit-scrollbar {
@@ -131,4 +132,49 @@ span{
     padding: 10px;
     background-color: #656363;
   }
-  
+
+footer {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  border-top: 3px solid #194c7e;
+  margin-top: 40px;
+}
+
+.firma-contacto {
+  margin-top: 15px;
+}
+
+.firma-contacto p {
+  margin: 5px 0;
+}
+
+.firma-contacto a {
+  color: #66ccff;
+  text-decoration: none;
+}
+
+.firma-contacto a:hover {
+  text-decoration: underline;
+}
+
+
+.firma-contacto ul {
+  list-style: none;
+  padding: 0;
+}
+
+.firma-contacto li {
+  display: inline;
+  margin-right: 15px;
+}
+
+.firma-contacto li a {
+  color: #66ccff;
+  font-weight: bold;
+}
+
+.firma-contacto li a:hover {
+  text-decoration: underline;
+}
