@@ -1,13 +1,13 @@
 body {
     padding: 20px;
-    background-color: #131313;
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364); 
   }
   
   h1 {
     text-align: center;
     font-size: 40px;
     margin-bottom: 40px;
-    color: hsl(210, 82%, 60%);
+    color: #469bf0;
   }
   ol li {
     display: flex;
@@ -16,8 +16,8 @@ body {
     gap: 20px;
     margin-bottom: 25px;
     font-size: 20px;
-    background-color: #e8f0ff;
-    color: #8d8585;
+    background-color: #798aa9;
+    color: #000000;
     padding: 15px 20px;
     border-radius: 12px;
     
@@ -25,7 +25,7 @@ body {
   }
   
   ol li:hover {
-    background-color: #d0e1ff;
+    background-color: #3a4f73;
     transform: translateY(-3px);
   }
   ol img {

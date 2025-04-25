@@ -1,0 +1,55 @@
+/* Estilo general del cuerpo */
+body {
+    margin: 0;
+    padding: 20px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364); 
+    line-height: 1.6;
+  }
+  
+  /* Título principal */
+  h1 {
+    text-align: center;
+    color: #469bf0;
+    font-size: 36px;
+    margin-bottom: 30px;
+  }
+  
+  /* Contenedores */
+  div {
+    display: block;
+    max-width: 800px;
+    margin: 0 auto 30px auto;
+    background-color: #ffffff0d;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  }
+  
+  /* Texto del párrafo */
+  p {
+    font-size: 18px;
+    color: #f0f0f0;
+  }
+  
+  /* Texto resaltado */
+ b{
+    color: #66ccff;
+  }
+  
+  /* Imagen */
+  img {
+    display: block;
+    margin: 20px auto 0 auto;
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+    transition: transform 0.3s ease;
+  }
+  
+  img:hover {
+    transform: scale(1.05);
+  }
